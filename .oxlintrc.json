@@ -1,0 +1,29 @@
+{
+    "$schema": "./node_modules/oxlint/configuration_schema.json",
+    "plugins": [
+        "import",
+        "jsdoc",
+        "unicorn",
+        "promise",
+        "typescript",
+        "oxc",
+        "eslint"
+    ],
+    "ignorePatterns": [
+        "eslint.config.mjs",
+    ],
+    "rules": {
+        "no-irregular-whitespace": "warn"
+        // or
+        // "no-irregular-whitespace": [
+        //     "warn",
+        //     {
+        //         "skipStrings": false,
+        //         "skipComments": false,
+        //         "skipRegExps": false,
+        //         "skipTemplates": false,
+        //         "skipJSXText": false,
+        //     }
+        // ]
+    }
+}
