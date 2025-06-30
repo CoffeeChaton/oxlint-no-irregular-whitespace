@@ -18,6 +18,8 @@
         "no-irregular-whitespace": [
             "warn",
             {
+                // I want to be warned about unimplemented options
+                // or unexpected configuration files.
                 "skipStrings": false,
                 "skipComments": false,
                 "skipRegExps": false,
