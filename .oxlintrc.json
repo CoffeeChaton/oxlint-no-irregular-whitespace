@@ -13,17 +13,17 @@
         "eslint.config.mjs",
     ],
     "rules": {
-        "no-irregular-whitespace": "warn"
+        // "no-irregular-whitespace": "warn"
         // or
-        // "no-irregular-whitespace": [
-        //     "warn",
-        //     {
-        //         "skipStrings": false,
-        //         "skipComments": false,
-        //         "skipRegExps": false,
-        //         "skipTemplates": false,
-        //         "skipJSXText": false,
-        //     }
-        // ]
+        "no-irregular-whitespace": [
+            "warn",
+            {
+                "skipStrings": false,
+                "skipComments": false,
+                "skipRegExps": false,
+                "skipTemplates": false,
+                "skipJSXText": false,
+            }
+        ]
     }
 }
