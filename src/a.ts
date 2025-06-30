@@ -1,5 +1,4 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-/*eslint no-irregular-whitespace: "error"*/
 
 // exp is from https://eslint.org/docs/latest/rules/no-irregular-whitespace#skipstrings
 
